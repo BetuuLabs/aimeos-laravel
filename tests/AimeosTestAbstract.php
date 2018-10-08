@@ -14,6 +14,7 @@ class AimeosTestAbstract extends Orchestra\Testbench\BrowserKit\TestCase
 			'username' => env('DB_USERNAME', 'root'),
 			'password' => env('DB_PASSWORD', ''),
 			'collation' => 'utf8_unicode_ci',
+			'charset' => 'utf8',
 		]);
 
 		$app['config']->set('app.key', 'SomeRandomStringWith32Characters');
