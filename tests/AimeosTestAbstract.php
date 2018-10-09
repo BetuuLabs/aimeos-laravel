@@ -21,7 +21,7 @@ class AimeosTestAbstract extends Orchestra\Testbench\BrowserKit\TestCase
 			'collation' => 'utf8_unicode_ci',
 			'charset' => 'utf8',
 		]);
-/*
+
 		$app['config']->set('shop.resource.db', [
 			'adapter' => 'mysql',
 			'host' => env('DB_HOST', 'localhost'),
@@ -36,7 +36,7 @@ class AimeosTestAbstract extends Orchestra\Testbench\BrowserKit\TestCase
 				'charset' => 'utf8',
 			],
 		]);
-*/
+
 		$app['config']->set('shop.authorize', false);
 		$app['config']->set('shop.disableSites', false);
 		$app['config']->set('shop.accessControl', false);
